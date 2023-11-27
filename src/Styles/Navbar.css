@@ -1,0 +1,81 @@
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for desktop */
+  padding: 15px 0;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-logo img {
+  max-width: 60px; /* Adjust the logo size as needed */
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  margin-right: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a.active {
+  color: #1b5b77;
+  font-weight: bold;
+}
+
+.mobile-menu-button {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* Sesuaikan tinggi navbar dengan kebutuhan Anda */
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 10px 20px;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-links li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .mobile-menu-button {
+    display: block; /* Tampilkan tombol menu mobile pada tampilan mobile */
+  }
+
+  /* Sembunyikan daftar ul saat menu mobile tidak aktif */
+  .navbar-links:not(.active) {
+    display: none;
+  }
+}
