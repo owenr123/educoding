@@ -267,7 +267,7 @@ section {
   margin-top: 40px;
 }
 
-/* Gaya Header pada Tampilan Mobile */
+/* Gaya pada Tampilan Mobile & Tablet */
 @media (max-width: 768px) {
   .header {
     flex-direction: column;
