@@ -1,19 +1,19 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom'; // Jika Anda menggunakan React Router
+import { NavLink } from 'react-router-dom';
 import '../Styles/Navbar.css';
 import Logo from '../Assets/Logo.png';
 
 const Navbar = () => {
   const [activeLink, setActiveLink] = useState('beranda');
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false); // Untuk mengontrol tampilan menu mobile
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const handleNavLinkClick = (link) => {
     setActiveLink(link);
-    setMobileMenuOpen(false); // Tutup menu mobile setelah mengklik salah satu link
+    setMobileMenuOpen(false);
   };
 
   const toggleMobileMenu = () => {
-    setMobileMenuOpen(!mobileMenuOpen); // Toggle menu mobile saat tombol diklik
+    setMobileMenuOpen(!mobileMenuOpen);
   };
 
   return (
@@ -26,13 +26,13 @@ const Navbar = () => {
           className="mobile-menu-button"
           onClick={toggleMobileMenu}
         >
-          ☰ {/* Ini adalah ikon hamburger, Anda dapat menggantinya dengan ikon lain */}
+          ☰
         </button>
         <ul className={`navbar-links ${mobileMenuOpen ? 'active' : ''}`}>
           <li>
             <NavLink
               exact
-              to="/educoding"
+              to="/"
               activeClassName="active"
               onClick={() => handleNavLinkClick('beranda')}
             >
