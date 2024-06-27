@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/educoding/static/css/main.cad6e41f.css",
+    "main.js": "/educoding/static/js/main.04c8d526.js",
+    "static/js/787.91805bf2.chunk.js": "/educoding/static/js/787.91805bf2.chunk.js",
+    "static/media/Rectangle_pictures.jpg": "/educoding/static/media/Rectangle_pictures.107bda641d8f9f4111bf.jpg",
+    "static/media/About2.jpg": "/educoding/static/media/About2.c0bf1c28276dbbae1136.jpg",
+    "static/media/About1.jpg": "/educoding/static/media/About1.37fbdbe946c5b5dbea33.jpg",
+    "static/media/About4.jpg": "/educoding/static/media/About4.70d81cd0503ca6c3cd40.jpg",
+    "static/media/About6.jpg": "/educoding/static/media/About6.d92604443eb37112abd8.jpg",
+    "static/media/About7.jpg": "/educoding/static/media/About7.d21b36ec32dfd5ddddef.jpg",
+    "static/media/About3.jpg": "/educoding/static/media/About3.ee3a3d99040de7af4260.jpg",
+    "static/media/About5.jpg": "/educoding/static/media/About5.48b48f4c1163d73828ce.jpg",
+    "static/media/App.jpg": "/educoding/static/media/App.ffdc8742d1d26a3ac043.jpg",
+    "static/media/Artificial_Intelligence.jpg": "/educoding/static/media/Artificial_Intelligence.198f633712110d55a353.jpg",
+    "static/media/Backend_Developer.jpg": "/educoding/static/media/Backend_Developer.e88f7e046f707d1a2926.jpg",
+    "static/media/Web_Development.jpg": "/educoding/static/media/Web_Development.9b9f2bfa3449a516a91b.jpg",
+    "static/media/Introduction1.jpg": "/educoding/static/media/Introduction1.08aad6b7bb3a60e7bcd4.jpg",
+    "static/media/contact_img.png": "/educoding/static/media/contact_img.62dbd4a65c168d9787a4.png",
+    "static/media/Introduction2.jpg": "/educoding/static/media/Introduction2.14e0e94d615269fb6671.jpg",
+    "static/media/help_img.jpg": "/educoding/static/media/help_img.13b798d6ec4d62e3e4d2.jpg",
+    "static/media/Flutter_Fundamental.jpg": "/educoding/static/media/Flutter_Fundamental.440875c292cae4b75e43.jpg",
+    "static/media/about_img.png": "/educoding/static/media/about_img.1cc3e1a16737be0c8376.png",
+    "static/media/Logo.png": "/educoding/static/media/Logo.4816d2981829b35b8183.png",
+    "static/media/option.png": "/educoding/static/media/option.634a04b8552110a4848d.png",
+    "index.html": "/educoding/index.html",
+    "main.cad6e41f.css.map": "/educoding/static/css/main.cad6e41f.css.map",
+    "main.04c8d526.js.map": "/educoding/static/js/main.04c8d526.js.map",
+    "787.91805bf2.chunk.js.map": "/educoding/static/js/787.91805bf2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cad6e41f.css",
+    "static/js/main.04c8d526.js"
+  ]
+}
