@@ -8,7 +8,7 @@ import Bantuan from './Pages/Bantuan';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/educoding">
       <div className="App">
         <Navbar />
         <Routes>
