@@ -55,27 +55,23 @@ function Tentang() {
       </section>
 
       <div className="about-keunggulan">
-        <div className="aboutkeunggulan-content">
-
-          <h1>Apa Keunggulan EduCoding?</h1>
-          <div className="keunggulan-container">
-
-            <div className="keunggulan-box">
-              <img src={Aboutoptionimg} alt="About" />
-              <h3>Lengkap</h3>
-              <p>Kelas dan materi tersedia</p>
-            </div>
-
-            <div className="keunggulan-box">
-              <img src={Aboutchecklistimg} alt="About" />
-              <h3>Praktis</h3>
-              <p>Mudah dan nyaman digunakan</p>
-            </div>
-
-          </div>
-
-        </div>
+  <div className="aboutkeunggulan-content">
+    <h1>Apa Keunggulan EduCoding?</h1>
+    <div className="keunggulan-container">
+      <div className="keunggulan-box">
+        <img src={Aboutoptionimg} alt="About" />
+        <h3>Lengkap</h3>
+        <p>Kelas dan materi tersedia</p>
       </div>
+      <div className="keunggulan-box">
+        <img src={Aboutchecklistimg} alt="About" />
+        <h3>Praktis</h3>
+        <p>Mudah dan nyaman digunakan</p>
+      </div>
+    </div>
+  </div>
+</div>
+
 
       <div className="about-wallpaper">
         <h1>Ayo, kita belajar bersama dan berkembang bersama</h1>
