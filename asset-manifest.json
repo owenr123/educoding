@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/educoding/static/css/main.cad6e41f.css",
+    "main.css": "/educoding/static/css/main.6b563235.css",
     "main.js": "/educoding/static/js/main.04c8d526.js",
     "static/js/787.91805bf2.chunk.js": "/educoding/static/js/787.91805bf2.chunk.js",
     "static/media/Rectangle_pictures.jpg": "/educoding/static/media/Rectangle_pictures.107bda641d8f9f4111bf.jpg",
@@ -24,12 +24,12 @@
     "static/media/Logo.png": "/educoding/static/media/Logo.4816d2981829b35b8183.png",
     "static/media/option.png": "/educoding/static/media/option.634a04b8552110a4848d.png",
     "index.html": "/educoding/index.html",
-    "main.cad6e41f.css.map": "/educoding/static/css/main.cad6e41f.css.map",
+    "main.6b563235.css.map": "/educoding/static/css/main.6b563235.css.map",
     "main.04c8d526.js.map": "/educoding/static/js/main.04c8d526.js.map",
     "787.91805bf2.chunk.js.map": "/educoding/static/js/787.91805bf2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cad6e41f.css",
+    "static/css/main.6b563235.css",
     "static/js/main.04c8d526.js"
   ]
 }
