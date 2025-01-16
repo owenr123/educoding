@@ -4,6 +4,7 @@ import App from '../Assets/App.jpg';
 import Wallpaper1 from '../Assets/Introduction1.jpg';
 import Wallpaper2 from '../Assets/Introduction2.jpg';
 import Wallpaper3 from '../Assets/Rectangle_pictures.jpg';
+import Footer from '../Components/Footer';
 
 const Beranda = () => {
   return (
@@ -121,9 +122,7 @@ const Beranda = () => {
         <img src={App} alt="home" className="ending-image" />
       </section>
 
-      <footer className="footer">
-        <p>Hak Cipta &copy; 2023 Nama Situs. Semua Hak Dilindungi.</p>
-      </footer>
+      <Footer />
     </div>
   );
 };

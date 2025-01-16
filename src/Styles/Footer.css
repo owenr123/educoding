@@ -1,0 +1,139 @@
+/* Styling untuk footer secara umum */
+.footer-container {
+  background-color: #1b5b77;
+  color: #fff;
+  padding: 10px 0;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+/* Kolom Kontak */
+.footer-contact {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px; /* Jarak antar elemen */
+}
+
+.footer-contact .footer-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Kolom Keterangan EduCoding */
+.footer-info {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-logo {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.footer-description {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+/* Kolom Download */
+.footer-download {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-download-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.google-play-button {
+  width: 150px;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 20px;
+  color: #ddd;
+}
+
+.footer-copyright {
+  font-size: 14px; /* Ukuran font */
+  text-align: center; /* Pusatkan teks */
+  font-weight: 600; /* Buat teks semi-bold */
+  margin: 10px 0; /* Jarak atas dan bawah */
+}
+
+/* Styling untuk tampilan responsif */
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 20px; /* Tambahkan padding untuk memberikan ruang */
+  }
+
+  .footer-top {
+    flex-direction: column; /* Ubah layout menjadi kolom */
+    align-items: center; /* Pusatkan semua elemen */
+    gap: 20px; /* Tambahkan jarak antar kolom */
+  }
+
+  /* Kolom Kontak */
+  .footer-contact {
+    width: 100%; /* Isi lebar penuh */
+    align-items: center; /* Pusatkan teks dan ikon */
+    text-align: center; /* Teks rata tengah */
+    gap: 2px;
+  }
+
+  .footer-contact .footer-item {
+    justify-content: center; /* Pusatkan elemen kontak */
+  }
+
+  /* Kolom Keterangan EduCoding */
+  .footer-info {
+    width: 100%; /* Lebar penuh untuk elemen info */
+    text-align: center; /* Teks rata tengah */
+  }
+
+  .footer-logo {
+    margin: 0 auto 10px; /* Pusatkan logo */
+  }
+
+  .footer-description {
+    font-size: 13px; /* Ukuran font lebih kecil */
+    line-height: 1.5; /* Jarak antar baris */
+  }
+
+  /* Kolom Download */
+  .footer-download {
+    width: 100%; /* Lebar penuh untuk elemen download */
+    align-items: center; /* Pusatkan teks dan tombol */
+    text-align: center; /* Teks rata tengah */
+  }
+
+  .footer-download-title {
+    font-size: 14px; /* Ukuran font lebih kecil */
+  }
+
+  .google-play-button {
+    width: 120px; /* Sesuaikan ukuran tombol Google Play */
+  }
+
+  /* Footer Bottom */
+  .footer-bottom {
+    margin-top: 20px; /* Tambahkan ruang atas */
+    font-size: 12px; /* Ukuran font lebih kecil */
+    text-align: center; /* Pusatkan teks */
+  }
+}

@@ -2,6 +2,7 @@ import React from 'react';
 import '../Styles/Kontak.css';
 import { FaEnvelope, FaPhone, FaMapMarkerAlt } from 'react-icons/fa';
 import Contactimg1 from '../Assets/contact_img.png';
+import Footer from '../Components/Footer';
 
 function Kontak() {
   return (
@@ -33,9 +34,7 @@ function Kontak() {
 
       </div>
 
-      <footer className="footer">
-        <p>Hak Cipta &copy; 2023 Nama Situs. Semua Hak Dilindungi.</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

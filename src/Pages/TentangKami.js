@@ -11,6 +11,7 @@ import AboutWallpaper5 from '../Assets/About5.jpg';
 import AboutWallpaper6 from '../Assets/About6.jpg';
 import AboutWallpaper7 from '../Assets/About7.jpg';
 import App from '../Assets/App.jpg';
+import Footer from '../Components/Footer';
 
 function Tentang() {
   return (
@@ -112,9 +113,7 @@ function Tentang() {
         <img src={App} alt="home" className="ending-image" />
       </section>
 
-      <footer className="footer">
-        <p>Hak Cipta &copy; 2023 Nama Situs. Semua Hak Dilindungi.</p>
-      </footer>
+      <Footer />
 
     </div>
   );
